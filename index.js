@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   (function loop() {
-      var rand = Math.round(Math.random() * 2000);
+      var rand = Math.round(Math.random() * 1000 + 500);
       setTimeout(function() {
             shuffle();
             loop();  
