@@ -4,10 +4,12 @@ Shuffling image sprites / jigsaw
 
 
 
-screencast video link: http://recordit.co/HM1ehF5YIv
+_Life in a metro:_
 
-screencast gif :
+[Screencast Video Link](http://recordit.co/vJ3NLL02QT)
+
+[Screencast GIF](http://g.recordit.co/vJ3NLL02QT.gif):
 
 
 
-![screencast](http://g.recordit.co/HM1ehF5YIv.gif)
+![screencast](http://g.recordit.co/vJ3NLL02QT.gif)

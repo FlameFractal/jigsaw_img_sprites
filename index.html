@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
  
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -16,48 +15,49 @@
     <title>Img Gallery!</title>
 </head>
 
-<body>
+<body >
     
+    <div class="frame">
+        <img id="frame_img" src="slices/frame.png">
+        <div class="container rotating_gallery">
+    
+            <div class="row row_1 align-items-start">
+                <div class="col-sm img_cont" id="1">
+                    <img src="slices/1.jpg" >
+                </div>
+                <div class="col-sm img_cont" id="2">
+                    <img src="slices/2.jpg" >
+                </div>
+                <div class="col-sm img_cont" id="3">
+                    <img src="slices/3.jpg" >
+                </div>
+            </div>
 
-    <div class="container rotating_gallery">
+            <div class="row row_2 align-items-start">
+                <div class="col-sm img_cont" id="4">
+                    <img src="slices/4.jpg" >
+                </div>
+                <div class="col-sm img_cont" id="5">
+                    <img src="slices/5.jpg" >
+                </div>
+                <div class="col-sm img_cont" id="6">
+                    <img src="slices/6.jpg" >
+                </div>
+            </div>
 
-        <div class="row row_1">
-            <div class="col-sm img_cont" id="1">
-                <img src="slices/1.jpg" >
-            </div>
-            <div class="col-sm img_cont" id="2">
-                <img src="slices/2.jpg" >
-            </div>
-            <div class="col-sm img_cont" id="3">
-                <img src="slices/3.jpg" >
-            </div>
-        </div>
-
-        <div class="row row_2">
-            <div class="col-sm img_cont" id="4">
-                <img src="slices/4.jpg" >
-            </div>
-            <div class="col-sm img_cont" id="5">
-                <img src="slices/5.jpg" >
-            </div>
-            <div class="col-sm img_cont" id="6">
-                <img src="slices/6.jpg" >
-            </div>
-        </div>
-
-        <div class="row row_3">
-            <div class="col-sm img_cont" id="7">
-                <img src="slices/7.jpg" >
-            </div>
-            <div class="col-sm img_cont" id="8">
-                <img src="slices/8.jpg" >
-            </div>
-            <div class="col-sm img_cont" id="9">
-                <img src="slices/9.jpg" >
+            <div class="row row_3 align-items-start ">
+                <div class="col-sm img_cont" id="7">
+                    <img src="slices/7.jpg" >
+                </div>
+                <div class="col-sm img_cont" id="8">
+                    <img src="slices/8.jpg" >
+                </div>
+                <div class="col-sm img_cont" id="9">
+                    <img src="slices/9.jpg" >
+                </div>
             </div>
         </div>
     </div>
-
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
